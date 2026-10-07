@@ -1,0 +1,17 @@
+.text-orange {
+    color: orange;
+}
+
+.paragraph-text {
+    color: red;
+}
+
+.sub-heading {
+    background-color: lightgray;
+    color: red;
+}
+
+.link-custom {
+    text-decoration: none;
+    color: red;
+}
