@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        //perbandingan
+
+        // ==   sama dengan
+        // ===  sama dengan (nilai dan tipe)
+
+        // !=   tidak sama dengan
+        // !==  tidak sama dengan (nilai dan tipe)
+
+        // >    lebih dari
+        // >=   lebih dari sama dengan
+        // <    kurang dari
+        // <=   kurang dari sama dengan
+
+        const minimalLulus = 65;
+        var nilai = 60;
+        if (nilai >= 65) {
+            console.log('lulus');
+        } else {
+            console.log('tidak lulus');
+        }
+
+        if (nilai > 80) {
+            console.log('nilai A');
+        } else if (nilai > 70) {
+            console.log('nilai B');
+        } else if (nilai > 60) {
+            console.log('Nilai C');
+        } else {
+            console.log('Nilai D');
+        }
+
+        var idYangDicari = 777;
+        var id = '777';
+
+        if (id == idYangDicari) {
+            console.log('iya, ' + id + ' ini ID yg dicari');
+        } else {
+            console.log('tidak, ' + id + ' ini ID bukan yg dicari');
+            
+        }
+    </script>
+</body>
+</html>

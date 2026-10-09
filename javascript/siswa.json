@@ -1,0 +1,14 @@
+
+
+{
+    "nama":"budi",
+    "umur":30,
+    "nilai": {
+        "matematika": 80,
+        "english": 90,
+        "olahraga": {
+            "praktik":100,
+            "teori":70
+        }
+    }
+}

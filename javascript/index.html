@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- JS dari file  -->
+    <script src="script.js"></script>
+
+    <!-- Tag Script -->
+    <script>
+        //kode javascript
+
+        // variable
+        var nama = '';
+        var umur = 0;
+
+        console.log(umur);
+
+        // object
+        var siswa = {
+            'nama': 'budi',
+            'umur': 30,
+            "nilai": {
+                "matematika": 80,
+                "english": 90,
+                "olahraga": {
+                    "praktik":100,
+                    "teori":70
+                }
+            }
+        }
+        var nama = 'iwan';
+        console.log(nama);
+
+        console.log(siswa.nilai.olahraga.teori);
+
+        // array
+                                // array indeks
+        var anggotaOsis = ['budi', 'iwan', 'andre'];
+                        //.   0      1        2
+
+        console.log(anggotaOsis[0]);
+
+        var nilaiSemuaSiswa = [
+            //0
+            {
+                'nama': 'budi',
+                'umur': 30,
+                "nilai": {
+                    "matematika": 80,
+                    "english": 90,
+                    "olahraga": {
+                        "praktik":100,
+                        "teori":70
+                    }
+                }
+            },
+            //1
+            {
+                'nama': 'iwan',
+                'umur': 29,
+                "nilai": {
+                    "matematika": 70,
+                    "english": 60,
+                    "olahraga": {
+                        "praktik":77,
+                        "teori":88
+                    }
+                }
+            }
+        ]
+
+        console.log(nilaiSemuaSiswa[1].nilai.matematika);
+        
+        var alamat = 'jakarta';
+        alamat = 'bogor';
+        console.log(alamat);
+
+        const namaSekolah = 'SMP ABC';
+
+    </script>
+</body>
+</html>
