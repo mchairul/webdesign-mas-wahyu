@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1 style="color: red;" id="heading">Selamat Datang</h1>
+    <button onclick="ubahKeHijau()">Ubah Ke Hijau</button>
+    <button onclick="ubahKeMerah()">Ubah Ke Merah</button>
+
+    <script>
+        console.log(document.getElementById('heading'));
+
+        function ubahKeHijau() {
+            document.getElementById('heading').style.color = 'green'
+        }
+
+        function ubahKeMerah() {
+            document.getElementById('heading').style.color = 'red'
+        }
+        
+    </script>
+</body>
+</html>

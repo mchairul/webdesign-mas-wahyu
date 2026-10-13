@@ -17,7 +17,22 @@
 
     </h1>
 
+    <label for="urlGambar">Link Gambar</label>
+    <input type="text" id="urlGambar" placeholder="masukan link gambar di sini" onkeyup="debugInput()">
+    <p>Klik tombol untuk tambah gambar</p>
+    <button onclick="tambahGambar()">Tambah Gambar</button>
+
+    <div id="gambar">
+        
+    </div>
+
     <script>
+        function debugInput() {
+            console.log(document.getElementById('urlGambar'));
+        }
+        
+
+        // void
         function hitung() {
             var nilai1 = document.getElementById('nilai1').value
             nilai1 = parseInt(nilai1)
@@ -26,6 +41,17 @@
 
             document.getElementById('hasil').innerHTML = hasil
         }
+
+        function tambahGambar() {
+            var urlGambar = document.getElementById('urlGambar').value
+
+            document.getElementById('gambar').innerHTML += '<img src="' + urlGambar + '">'
+            // <img src=" + https://placehold.co/600x400/orange/white + ">
+        }
+
+        // js operator +
+        // 100 + 200 = 300
+        // nama saya + budi = nama saya budi
     </script>
 </body>
 </html>

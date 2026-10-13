@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        // function kumpulan perintah code 
+        // kegunaan :
+        // 1. Dapat digunakan berulang (Reuse Code)
+        // 2. mengorganisir code
+        // 3. code lebih mudah dibaca
+
+        // parameter wajib 
+        function penjumlahan(nilai1, nilai2) {
+            // ada variable yg berlaku di dalam sini saja / di dalam blok function saja
+            // yaitu nilai1 dan nilai2
+            var hasil = nilai1 + nilai2;
+
+            // return value
+
+            // tanpa nilai berarti berhenti
+            // return
+
+            // mengembalikan nilai berupa variable hasil
+            return hasil
+            // setelah return tidak ada yg dieksekusi / dijalankan
+            console.log('Log dari function : ' + hasil);
+        }
+
+        var hasilNilaiBudi = penjumlahan(5, 6);
+        console.log(hasilNilaiBudi);
+
+        var hasilNilaiIwan = penjumlahan(7, 5);
+        console.log(hasilNilaiIwan);
+
+        // parameter optional
+        function hitungGaji(biayaPerJam = 10000, totalJam = 8) {
+            return biayaPerJam * totalJam;
+        }
+
+        var gajiBudi = hitungGaji();
+        console.log(gajiBudi);
+
+        var gajiIwan = hitungGaji(15000, 10);
+        console.log(gajiIwan);
+
+        const perkalian = function (angka1, angka2) {
+            return angka1 * angka2
+        }
+        console.log(perkalian);
+        perkalian = 'ikan'
+
+        console.log(perkalian);
+        
+
+        // const perkalian2 = (angka1, angka2) => {
+        //     return angka1 * angka2
+        // }
+
+        // console.log(perkalian(5, 7));
+        
+    </script>
+</body>
+</html>
