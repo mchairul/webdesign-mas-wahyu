@@ -1,0 +1,30 @@
+* {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.bg-navbar {
+    background-color: #043873;
+}
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
+.btn-login {
+    --bs-btn-bg: #FFE492;
+    --bs-btn-color: #043873;
+}
+
+.btn-try {
+    --bs-btn-bg: #4F9CF9;
+    --bs-btn-color: var(--bs-white);
+}
+
+.hero {
+    background-image: url('../img/hero2.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
