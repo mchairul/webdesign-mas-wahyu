@@ -28,3 +28,30 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.project {
+    background-image: url('../img/bg2.png');
+    background-position: top left;
+    background-repeat:  no-repeat;
+    background-size: 500px;
+}
+
+.underline-yellow {
+    position: relative;
+    display: inline-block;
+}
+
+.underline-yellow::after {
+    /* content: url(../img/Vector.svg); */
+    content: '';
+    background-color: #FFE492;
+    position: absolute;
+    left: -4px;
+    right: -4px;
+    bottom: 6px;
+    height: 7px;
+    z-index: -1;
+    border-radius: 100px 50px 100px 15px / 15px 30px 50px 100px;
+    transform: rotate(-1deg);
+}
+
